@@ -1,0 +1,6 @@
+{
+  "name": "server-trago-legal",
+  "dependencies": {
+    "request": "registry:npm/request#2.69.0+20160428223725"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "server-trago-legal",
+  "version": "1.0.0",
+  "description": "Sevidor de app trago legal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavieracostapolo/ServerTragoLegal.git"
+  },
+  "author": "Xacosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavieracostapolo/ServerTragoLegal/issues"
+  },
+  "homepage": "https://github.com/xavieracostapolo/ServerTragoLegal#readme",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
