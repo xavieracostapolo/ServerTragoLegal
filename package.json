@@ -18,6 +18,7 @@
   "homepage": "https://github.com/xavieracostapolo/ServerTragoLegal#readme",
   "dependencies": {
     "cheerio": "latest",
+    "cors": "^2.7.1",
     "express": "latest",
     "request": "latest"
   },

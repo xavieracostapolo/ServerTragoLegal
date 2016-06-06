@@ -1,8 +1,11 @@
 var express = require('express');
+var cors = require('cors');
 var querystring = require('querystring');
 var request = require('request');
 var cheerio = require('cheerio');
 var app = express();
+
+app.use(cors());
 
 app.get('/v1/tragolegal/:codigo', function(req, res){
    var codigo = req.params.codigo;
