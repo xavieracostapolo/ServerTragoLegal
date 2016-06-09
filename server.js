@@ -8,6 +8,8 @@ var app = express();
 
 app.use(cors());
 
+var port = process.env.PORT || 8080;
+
 app.get('/v1/tragolegal/:codigo', function(req, res){
    var codigo = req.params.codigo;
    var url = 'http://www.syctrace.com.co/testWs.aspx';
@@ -85,7 +87,8 @@ app.get('/v1/tragolegal/:codigo', function(req, res){
    
 });
 
-app.listen('8081');
-console.log('EL servidor esta iniciado en el puerto 8081');
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
 
 exports = module.exports = app;
